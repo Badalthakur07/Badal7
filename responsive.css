@@ -89,6 +89,25 @@ nav .navlist li a:hover{
     margin: 2px;
 }
 
+
+.insta{
+    background-color: rgb(242, 171, 193);
+    padding: 16vh 0 7vh 0 ;
+    text-align: center;
+    
+}
+
+.ins{
+    width: 10px;
+    height: 10px;
+    text-decoration: none;
+    text-align: center;
+    
+    
+
+
+}
+
 .firstsection{
    height: 50vh;
    padding: 16vh 0 7vh 0 ;
