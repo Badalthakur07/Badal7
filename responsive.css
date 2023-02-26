@@ -5,7 +5,7 @@
 }
 .navbar{
     display: flex;
-    height: 12vh;
+    height: 70px;
     width: 100%;
     position: fixed;
     background-color:white;
@@ -17,7 +17,7 @@
     width: 10%;
     color: black;
      margin: 0 0 0 30px;
-     font-size: 30px;
+     font-size: 20px;
   
 
 
@@ -25,12 +25,13 @@
 }
 
 .navlist{  
-    width: 45%;
+    width: 35%;
     background-color:white;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     text-transform: uppercase;
+    font-size: 12px;
     
     
     
@@ -56,7 +57,7 @@ nav .navlist li a:hover{
 
 }
 .rightnav{
-    width: 45%;
+    width: 55%;
     background-color: white;
     display: flex;
     justify-content:flex-end;
@@ -90,28 +91,26 @@ nav .navlist li a:hover{
 }
 
 
+
 .insta{
-    background-color: rgb(242, 171, 193);
-    padding: 16vh 0 7vh 0 ;
-    text-align: center;
-    
+    height: 30px;
+    background-color: rgb(117 199 217);
+    padding: 80px 0px 10px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .ins{
-    width: 10px;
-    height: 10px;
+    
     text-decoration: none;
-    text-align: center;
-    
-    
-
-
+    align-items: center;
+    color: black;
 }
 
 .firstsection{
-   height: 50vh;
-   padding: 16vh 0 7vh 0 ;
-
+   height: 250px;
+   margin: 50px 0px 10px 0px;
 }
 
 .mainbox{
@@ -139,13 +138,13 @@ nav .navlist li a:hover{
 
 
 #image-nature{
-    width: 200px;
+    width: 300px;
     height: 200px;
 }
 
 .secondsection{
     display: flex;
-    height: 167vh;
+    height: 840px;
     
 }
 .sec-firsthalf{
@@ -217,6 +216,18 @@ nav .navlist li a:hover{
 
 
 
+.last-footer{
+    
+    display: flex;
+    height: 9vh;
+    width: 100%;
+    background-color: bisque;
+    justify-content: center;
+    align-items: center;
+    margin: 4vh 0 0 0;
+}
+
+
 
 
 
@@ -228,14 +239,19 @@ nav .navlist li a:hover{
     flex-direction: column;
     text-align: center;
     background-color: white;
-
-
+    width: 50%;
     
-   
-   }
+}
 
  .navlist li{
-    margin: 4px;
+    margin: 2vh;
+   
+    
+ }
+ .navlist li:hover{
+    background-color: orange;
+    padding: 3px 6px 3px 6px;
+    color: black;
  }
 
  
@@ -258,29 +274,43 @@ nav .navlist li a:hover{
     background-color: white;
       display: flex;
       justify-content: center;
+      width: 50%;
        
 }
 .nav-btn{
    width: 100%;
 
 }
-
-
 .burger{
    display: block;
 }
 .line{
     background-color: black;
 }
- 
+
+
+
+
+.firstsection{
+      height: 1000px;
+      width: 100%;
+      margin: 20px 0px 20px 0px ;
+ }
 .mainbox{
     display: flex;
     flex-direction: column;
-
     
 }
+
+#image-nature{
+    width: 200px;
+}
+
+
+
 .h-nav{
-    height: 120px;
+    height: 70px;
+    width: 100%;
 }
 .v-class{
     visibility: hidden;
@@ -291,6 +321,7 @@ nav .navlist li a:hover{
     display: flex;
     flex-direction: column-reverse;
     width: 100%;
+    margin: 20px 0px 20px 0px;
     
 }
 
@@ -300,33 +331,13 @@ nav .navlist li a:hover{
 .sec-secondhalf{
    background-color:  rgb( 218, 196, 251);
    width: 100%;
-
+ 
 }
 
 .sec-firsthalf-img{
     width: 100%;
     margin: 0px  0px 40px 0px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .footer-first{
    text-align: center;
